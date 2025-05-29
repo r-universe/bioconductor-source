@@ -1,4 +1,120 @@
 [submodule ".registry"]
 	path = .registry
-	url = https://github.com/r-universe-org/cran-to-git
+	url = https://github.com/bioconductor-source/bioconductor-source.r-universe.dev
 	branch = HEAD
+[submodule "AnnotationDbi"]
+	path = AnnotationDbi
+	url = https://git.bioconductor.org/packages/AnnotationDbi
+	branch = RELEASE_3_21
+[submodule "Biobase"]
+	path = Biobase
+	url = https://git.bioconductor.org/packages/Biobase
+	branch = RELEASE_3_21
+[submodule "BiocBaseUtils"]
+	path = BiocBaseUtils
+	url = https://git.bioconductor.org/packages/BiocBaseUtils
+	branch = RELEASE_3_21
+[submodule "BiocFileCache"]
+	path = BiocFileCache
+	url = https://git.bioconductor.org/packages/BiocFileCache
+	branch = RELEASE_3_21
+[submodule "BiocGenerics"]
+	path = BiocGenerics
+	url = https://git.bioconductor.org/packages/BiocGenerics
+	branch = RELEASE_3_21
+[submodule "BiocIO"]
+	path = BiocIO
+	url = https://git.bioconductor.org/packages/BiocIO
+	branch = RELEASE_3_21
+[submodule "BiocParallel"]
+	path = BiocParallel
+	url = https://git.bioconductor.org/packages/BiocParallel
+	branch = RELEASE_3_21
+[submodule "BiocStyle"]
+	path = BiocStyle
+	url = https://git.bioconductor.org/packages/BiocStyle
+	branch = RELEASE_3_21
+[submodule "BiocVersion"]
+	path = BiocVersion
+	url = https://git.bioconductor.org/packages/BiocVersion
+	branch = RELEASE_3_21
+[submodule "Biostrings"]
+	path = Biostrings
+	url = https://git.bioconductor.org/packages/Biostrings
+	branch = RELEASE_3_21
+[submodule "DelayedArray"]
+	path = DelayedArray
+	url = https://git.bioconductor.org/packages/DelayedArray
+	branch = RELEASE_3_21
+[submodule "GenomeInfoDb"]
+	path = GenomeInfoDb
+	url = https://git.bioconductor.org/packages/GenomeInfoDb
+	branch = RELEASE_3_21
+[submodule "GenomicAlignments"]
+	path = GenomicAlignments
+	url = https://git.bioconductor.org/packages/GenomicAlignments
+	branch = RELEASE_3_21
+[submodule "GenomicFeatures"]
+	path = GenomicFeatures
+	url = https://git.bioconductor.org/packages/GenomicFeatures
+	branch = RELEASE_3_21
+[submodule "GenomicRanges"]
+	path = GenomicRanges
+	url = https://git.bioconductor.org/packages/GenomicRanges
+	branch = RELEASE_3_21
+[submodule "IRanges"]
+	path = IRanges
+	url = https://git.bioconductor.org/packages/IRanges
+	branch = RELEASE_3_21
+[submodule "KEGGREST"]
+	path = KEGGREST
+	url = https://git.bioconductor.org/packages/KEGGREST
+	branch = RELEASE_3_21
+[submodule "MatrixGenerics"]
+	path = MatrixGenerics
+	url = https://git.bioconductor.org/packages/MatrixGenerics
+	branch = RELEASE_3_21
+[submodule "MultiAssayExperiment"]
+	path = MultiAssayExperiment
+	url = https://git.bioconductor.org/packages/MultiAssayExperiment
+	branch = RELEASE_3_21
+[submodule "Rhtslib"]
+	path = Rhtslib
+	url = https://git.bioconductor.org/packages/Rhtslib
+	branch = RELEASE_3_21
+[submodule "Rsamtools"]
+	path = Rsamtools
+	url = https://git.bioconductor.org/packages/Rsamtools
+	branch = RELEASE_3_21
+[submodule "S4Arrays"]
+	path = S4Arrays
+	url = https://git.bioconductor.org/packages/S4Arrays
+	branch = RELEASE_3_21
+[submodule "S4Vectors"]
+	path = S4Vectors
+	url = https://git.bioconductor.org/packages/S4Vectors
+	branch = RELEASE_3_21
+[submodule "SingleCellExperiment"]
+	path = SingleCellExperiment
+	url = https://git.bioconductor.org/packages/SingleCellExperiment
+	branch = RELEASE_3_21
+[submodule "SparseArray"]
+	path = SparseArray
+	url = https://git.bioconductor.org/packages/SparseArray
+	branch = RELEASE_3_21
+[submodule "SummarizedExperiment"]
+	path = SummarizedExperiment
+	url = https://git.bioconductor.org/packages/SummarizedExperiment
+	branch = RELEASE_3_21
+[submodule "UCSC.utils"]
+	path = UCSC.utils
+	url = https://git.bioconductor.org/packages/UCSC.utils
+	branch = RELEASE_3_21
+[submodule "XVector"]
+	path = XVector
+	url = https://git.bioconductor.org/packages/XVector
+	branch = RELEASE_3_21
+[submodule "rtracklayer"]
+	path = rtracklayer
+	url = https://git.bioconductor.org/packages/rtracklayer
+	branch = RELEASE_3_21
