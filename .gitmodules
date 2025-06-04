@@ -6,6 +6,10 @@
 	path = AnnotationDbi
 	url = https://git.bioconductor.org/packages/AnnotationDbi
 	branch = RELEASE_3_21
+[submodule "AnnotationHub"]
+	path = AnnotationHub
+	url = https://git.bioconductor.org/packages/AnnotationHub
+	branch = RELEASE_3_21
 [submodule "Biobase"]
 	path = Biobase
 	url = https://git.bioconductor.org/packages/Biobase
@@ -78,6 +82,10 @@
 	path = MultiAssayExperiment
 	url = https://git.bioconductor.org/packages/MultiAssayExperiment
 	branch = RELEASE_3_21
+[submodule "Rgraphviz"]
+	path = Rgraphviz
+	url = https://git.bioconductor.org/packages/Rgraphviz
+	branch = RELEASE_3_21
 [submodule "Rhtslib"]
 	path = Rhtslib
 	url = https://git.bioconductor.org/packages/Rhtslib
@@ -113,6 +121,26 @@
 [submodule "XVector"]
 	path = XVector
 	url = https://git.bioconductor.org/packages/XVector
+	branch = RELEASE_3_21
+[submodule "basilisk"]
+	path = basilisk
+	url = https://git.bioconductor.org/packages/basilisk
+	branch = RELEASE_3_21
+[submodule "dir.expiry"]
+	path = dir.expiry
+	url = https://git.bioconductor.org/packages/dir.expiry
+	branch = RELEASE_3_21
+[submodule "graph"]
+	path = graph
+	url = https://git.bioconductor.org/packages/graph
+	branch = RELEASE_3_21
+[submodule "ontoProc"]
+	path = ontoProc
+	url = https://git.bioconductor.org/packages/ontoProc
+	branch = RELEASE_3_21
+[submodule "parody"]
+	path = parody
+	url = https://git.bioconductor.org/packages/parody
 	branch = RELEASE_3_21
 [submodule "rtracklayer"]
 	path = rtracklayer
