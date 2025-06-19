@@ -2,6 +2,10 @@
 	path = .registry
 	url = https://github.com/bioconductor-source/bioconductor-source.r-universe.dev
 	branch = HEAD
+[submodule "ALL"]
+	path = ALL
+	url = https://git.bioconductor.org/packages/ALL
+	branch = RELEASE_3_21
 [submodule "AnnotationDbi"]
 	path = AnnotationDbi
 	url = https://git.bioconductor.org/packages/AnnotationDbi
@@ -13,6 +17,10 @@
 [submodule "AnnotationHub"]
 	path = AnnotationHub
 	url = https://git.bioconductor.org/packages/AnnotationHub
+	branch = RELEASE_3_21
+[submodule "BSgenome"]
+	path = BSgenome
+	url = https://git.bioconductor.org/packages/BSgenome
 	branch = RELEASE_3_21
 [submodule "Biobase"]
 	path = Biobase
@@ -38,6 +46,10 @@
 	path = BiocParallel
 	url = https://git.bioconductor.org/packages/BiocParallel
 	branch = RELEASE_3_21
+[submodule "BiocPkgTools"]
+	path = BiocPkgTools
+	url = https://git.bioconductor.org/packages/BiocPkgTools
+	branch = RELEASE_3_21
 [submodule "BiocStyle"]
 	path = BiocStyle
 	url = https://git.bioconductor.org/packages/BiocStyle
@@ -50,6 +62,14 @@
 	path = Biostrings
 	url = https://git.bioconductor.org/packages/Biostrings
 	branch = RELEASE_3_21
+[submodule "ComplexHeatmap"]
+	path = ComplexHeatmap
+	url = https://git.bioconductor.org/packages/ComplexHeatmap
+	branch = RELEASE_3_21
+[submodule "ConsensusClusterPlus"]
+	path = ConsensusClusterPlus
+	url = https://git.bioconductor.org/packages/ConsensusClusterPlus
+	branch = RELEASE_3_21
 [submodule "DESeq2"]
 	path = DESeq2
 	url = https://git.bioconductor.org/packages/DESeq2
@@ -57,6 +77,30 @@
 [submodule "DelayedArray"]
 	path = DelayedArray
 	url = https://git.bioconductor.org/packages/DelayedArray
+	branch = RELEASE_3_21
+[submodule "DirichletMultinomial"]
+	path = DirichletMultinomial
+	url = https://git.bioconductor.org/packages/DirichletMultinomial
+	branch = RELEASE_3_21
+[submodule "ExperimentHub"]
+	path = ExperimentHub
+	url = https://git.bioconductor.org/packages/ExperimentHub
+	branch = RELEASE_3_21
+[submodule "ExploreModelMatrix"]
+	path = ExploreModelMatrix
+	url = https://git.bioconductor.org/packages/ExploreModelMatrix
+	branch = RELEASE_3_21
+[submodule "FlowSOM"]
+	path = FlowSOM
+	url = https://git.bioconductor.org/packages/FlowSOM
+	branch = RELEASE_3_21
+[submodule "GEOmetadb"]
+	path = GEOmetadb
+	url = https://git.bioconductor.org/packages/GEOmetadb
+	branch = RELEASE_3_21
+[submodule "GEOquery"]
+	path = GEOquery
+	url = https://git.bioconductor.org/packages/GEOquery
 	branch = RELEASE_3_21
 [submodule "GenomeInfoDb"]
 	path = GenomeInfoDb
@@ -66,13 +110,29 @@
 	path = GenomicAlignments
 	url = https://git.bioconductor.org/packages/GenomicAlignments
 	branch = RELEASE_3_21
+[submodule "GenomicDataCommons"]
+	path = GenomicDataCommons
+	url = https://git.bioconductor.org/packages/GenomicDataCommons
+	branch = RELEASE_3_21
 [submodule "GenomicFeatures"]
 	path = GenomicFeatures
 	url = https://git.bioconductor.org/packages/GenomicFeatures
 	branch = RELEASE_3_21
+[submodule "GenomicFiles"]
+	path = GenomicFiles
+	url = https://git.bioconductor.org/packages/GenomicFiles
+	branch = RELEASE_3_21
 [submodule "GenomicRanges"]
 	path = GenomicRanges
 	url = https://git.bioconductor.org/packages/GenomicRanges
+	branch = RELEASE_3_21
+[submodule "GenomicSupersignatures"]
+	path = GenomicSupersignatures
+	url = https://git.bioconductor.org/packages/GenomicSupersignatures
+	branch = RELEASE_3_21
+[submodule "HDF5Array"]
+	path = HDF5Array
+	url = https://git.bioconductor.org/packages/HDF5Array
 	branch = RELEASE_3_21
 [submodule "IRanges"]
 	path = IRanges
@@ -86,6 +146,10 @@
 	path = MatrixGenerics
 	url = https://git.bioconductor.org/packages/MatrixGenerics
 	branch = RELEASE_3_21
+[submodule "Methylumi"]
+	path = Methylumi
+	url = https://git.bioconductor.org/packages/Methylumi
+	branch = RELEASE_3_21
 [submodule "MultiAssayExperiment"]
 	path = MultiAssayExperiment
 	url = https://git.bioconductor.org/packages/MultiAssayExperiment
@@ -94,13 +158,29 @@
 	path = ProtGenerics
 	url = https://git.bioconductor.org/packages/ProtGenerics
 	branch = RELEASE_3_21
+[submodule "QuasR"]
+	path = QuasR
+	url = https://git.bioconductor.org/packages/QuasR
+	branch = RELEASE_3_21
 [submodule "RBGL"]
 	path = RBGL
 	url = https://git.bioconductor.org/packages/RBGL
 	branch = RELEASE_3_21
+[submodule "RProtoBufLib"]
+	path = RProtoBufLib
+	url = https://git.bioconductor.org/packages/RProtoBufLib
+	branch = RELEASE_3_21
+[submodule "Rbowtie"]
+	path = Rbowtie
+	url = https://git.bioconductor.org/packages/Rbowtie
+	branch = RELEASE_3_21
 [submodule "Rgraphviz"]
 	path = Rgraphviz
 	url = https://git.bioconductor.org/packages/Rgraphviz
+	branch = RELEASE_3_21
+[submodule "Rhdf5lib"]
+	path = Rhdf5lib
+	url = https://git.bioconductor.org/packages/Rhdf5lib
 	branch = RELEASE_3_21
 [submodule "Rhtslib"]
 	path = Rhtslib
@@ -118,6 +198,14 @@
 	path = S4Vectors
 	url = https://git.bioconductor.org/packages/S4Vectors
 	branch = RELEASE_3_21
+[submodule "SRAdb"]
+	path = SRAdb
+	url = https://git.bioconductor.org/packages/SRAdb
+	branch = RELEASE_3_21
+[submodule "ShortRead"]
+	path = ShortRead
+	url = https://git.bioconductor.org/packages/ShortRead
+	branch = RELEASE_3_21
 [submodule "SingleCellExperiment"]
 	path = SingleCellExperiment
 	url = https://git.bioconductor.org/packages/SingleCellExperiment
@@ -130,37 +218,101 @@
 	path = SummarizedExperiment
 	url = https://git.bioconductor.org/packages/SummarizedExperiment
 	branch = RELEASE_3_21
+[submodule "TFBSTools"]
+	path = TFBSTools
+	url = https://git.bioconductor.org/packages/TFBSTools
+	branch = RELEASE_3_21
+[submodule "TreeSummarizedExperiment"]
+	path = TreeSummarizedExperiment
+	url = https://git.bioconductor.org/packages/TreeSummarizedExperiment
+	branch = RELEASE_3_21
 [submodule "UCSC.utils"]
 	path = UCSC.utils
 	url = https://git.bioconductor.org/packages/UCSC.utils
+	branch = RELEASE_3_21
+[submodule "VariantAnnotation"]
+	path = VariantAnnotation
+	url = https://git.bioconductor.org/packages/VariantAnnotation
 	branch = RELEASE_3_21
 [submodule "XVector"]
 	path = XVector
 	url = https://git.bioconductor.org/packages/XVector
 	branch = RELEASE_3_21
+[submodule "alevinQC"]
+	path = alevinQC
+	url = https://git.bioconductor.org/packages/alevinQC
+	branch = RELEASE_3_21
 [submodule "basilisk"]
 	path = basilisk
 	url = https://git.bioconductor.org/packages/basilisk
+	branch = RELEASE_3_21
+[submodule "biocViews"]
+	path = biocViews
+	url = https://git.bioconductor.org/packages/biocViews
 	branch = RELEASE_3_21
 [submodule "biomaRt"]
 	path = biomaRt
 	url = https://git.bioconductor.org/packages/biomaRt
 	branch = RELEASE_3_21
+[submodule "cytolib"]
+	path = cytolib
+	url = https://git.bioconductor.org/packages/cytolib
+	branch = RELEASE_3_21
+[submodule "diffcyt"]
+	path = diffcyt
+	url = https://git.bioconductor.org/packages/diffcyt
+	branch = RELEASE_3_21
 [submodule "dir.expiry"]
 	path = dir.expiry
 	url = https://git.bioconductor.org/packages/dir.expiry
+	branch = RELEASE_3_21
+[submodule "edgeR"]
+	path = edgeR
+	url = https://git.bioconductor.org/packages/edgeR
 	branch = RELEASE_3_21
 [submodule "ensembldb"]
 	path = ensembldb
 	url = https://git.bioconductor.org/packages/ensembldb
 	branch = RELEASE_3_21
+[submodule "flowCore"]
+	path = flowCore
+	url = https://git.bioconductor.org/packages/flowCore
+	branch = RELEASE_3_21
+[submodule "ggtree"]
+	path = ggtree
+	url = https://git.bioconductor.org/packages/ggtree
+	branch = RELEASE_3_21
 [submodule "graph"]
 	path = graph
 	url = https://git.bioconductor.org/packages/graph
 	branch = RELEASE_3_21
+[submodule "h5mread"]
+	path = h5mread
+	url = https://git.bioconductor.org/packages/h5mread
+	branch = RELEASE_3_21
+[submodule "iSEE"]
+	path = iSEE
+	url = https://git.bioconductor.org/packages/iSEE
+	branch = RELEASE_3_21
+[submodule "limma"]
+	path = limma
+	url = https://git.bioconductor.org/packages/limma
+	branch = RELEASE_3_21
+[submodule "monaLisa"]
+	path = monaLisa
+	url = https://git.bioconductor.org/packages/monaLisa
+	branch = RELEASE_3_21
 [submodule "ontoProc"]
 	path = ontoProc
 	url = https://git.bioconductor.org/packages/ontoProc
+	branch = RELEASE_3_21
+[submodule "orthos"]
+	path = orthos
+	url = https://git.bioconductor.org/packages/orthos
+	branch = RELEASE_3_21
+[submodule "orthosData"]
+	path = orthosData
+	url = https://git.bioconductor.org/packages/orthosData
 	branch = RELEASE_3_21
 [submodule "parody"]
 	path = parody
@@ -174,9 +326,37 @@
 	path = plyxp
 	url = https://git.bioconductor.org/packages/plyxp
 	branch = RELEASE_3_21
+[submodule "pwalign"]
+	path = pwalign
+	url = https://git.bioconductor.org/packages/pwalign
+	branch = RELEASE_3_21
+[submodule "rhdf5"]
+	path = rhdf5
+	url = https://git.bioconductor.org/packages/rhdf5
+	branch = RELEASE_3_21
+[submodule "rhdf5filters"]
+	path = rhdf5filters
+	url = https://git.bioconductor.org/packages/rhdf5filters
+	branch = RELEASE_3_21
 [submodule "rtracklayer"]
 	path = rtracklayer
 	url = https://git.bioconductor.org/packages/rtracklayer
+	branch = RELEASE_3_21
+[submodule "seqLogo"]
+	path = seqLogo
+	url = https://git.bioconductor.org/packages/seqLogo
+	branch = RELEASE_3_21
+[submodule "sketchR"]
+	path = sketchR
+	url = https://git.bioconductor.org/packages/sketchR
+	branch = RELEASE_3_21
+[submodule "treeclimbR"]
+	path = treeclimbR
+	url = https://git.bioconductor.org/packages/treeclimbR
+	branch = RELEASE_3_21
+[submodule "treeio"]
+	path = treeio
+	url = https://git.bioconductor.org/packages/treeio
 	branch = RELEASE_3_21
 [submodule "txdbmaker"]
 	path = txdbmaker
