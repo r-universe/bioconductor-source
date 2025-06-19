@@ -6,6 +6,10 @@
 	path = AnnotationDbi
 	url = https://git.bioconductor.org/packages/AnnotationDbi
 	branch = RELEASE_3_21
+[submodule "AnnotationFilter"]
+	path = AnnotationFilter
+	url = https://git.bioconductor.org/packages/AnnotationFilter
+	branch = RELEASE_3_21
 [submodule "AnnotationHub"]
 	path = AnnotationHub
 	url = https://git.bioconductor.org/packages/AnnotationHub
@@ -46,6 +50,10 @@
 	path = Biostrings
 	url = https://git.bioconductor.org/packages/Biostrings
 	branch = RELEASE_3_21
+[submodule "DESeq2"]
+	path = DESeq2
+	url = https://git.bioconductor.org/packages/DESeq2
+	branch = RELEASE_3_21
 [submodule "DelayedArray"]
 	path = DelayedArray
 	url = https://git.bioconductor.org/packages/DelayedArray
@@ -81,6 +89,14 @@
 [submodule "MultiAssayExperiment"]
 	path = MultiAssayExperiment
 	url = https://git.bioconductor.org/packages/MultiAssayExperiment
+	branch = RELEASE_3_21
+[submodule "ProtGenerics"]
+	path = ProtGenerics
+	url = https://git.bioconductor.org/packages/ProtGenerics
+	branch = RELEASE_3_21
+[submodule "RBGL"]
+	path = RBGL
+	url = https://git.bioconductor.org/packages/RBGL
 	branch = RELEASE_3_21
 [submodule "Rgraphviz"]
 	path = Rgraphviz
@@ -126,9 +142,17 @@
 	path = basilisk
 	url = https://git.bioconductor.org/packages/basilisk
 	branch = RELEASE_3_21
+[submodule "biomaRt"]
+	path = biomaRt
+	url = https://git.bioconductor.org/packages/biomaRt
+	branch = RELEASE_3_21
 [submodule "dir.expiry"]
 	path = dir.expiry
 	url = https://git.bioconductor.org/packages/dir.expiry
+	branch = RELEASE_3_21
+[submodule "ensembldb"]
+	path = ensembldb
+	url = https://git.bioconductor.org/packages/ensembldb
 	branch = RELEASE_3_21
 [submodule "graph"]
 	path = graph
@@ -142,7 +166,27 @@
 	path = parody
 	url = https://git.bioconductor.org/packages/parody
 	branch = RELEASE_3_21
+[submodule "plyranges"]
+	path = plyranges
+	url = https://git.bioconductor.org/packages/plyranges
+	branch = RELEASE_3_21
+[submodule "plyxp"]
+	path = plyxp
+	url = https://git.bioconductor.org/packages/plyxp
+	branch = RELEASE_3_21
 [submodule "rtracklayer"]
 	path = rtracklayer
 	url = https://git.bioconductor.org/packages/rtracklayer
+	branch = RELEASE_3_21
+[submodule "txdbmaker"]
+	path = txdbmaker
+	url = https://git.bioconductor.org/packages/txdbmaker
+	branch = RELEASE_3_21
+[submodule "tximeta"]
+	path = tximeta
+	url = https://git.bioconductor.org/packages/tximeta
+	branch = RELEASE_3_21
+[submodule "tximport"]
+	path = tximport
+	url = https://git.bioconductor.org/packages/tximport
 	branch = RELEASE_3_21
