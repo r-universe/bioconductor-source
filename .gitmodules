@@ -82,6 +82,10 @@
 	path = DirichletMultinomial
 	url = https://git.bioconductor.org/packages/DirichletMultinomial
 	branch = RELEASE_3_21
+[submodule "EBImage"]
+	path = EBImage
+	url = https://git.bioconductor.org/packages/EBImage
+	branch = RELEASE_3_21
 [submodule "ExperimentHub"]
 	path = ExperimentHub
 	url = https://git.bioconductor.org/packages/ExperimentHub
@@ -133,6 +137,10 @@
 [submodule "HDF5Array"]
 	path = HDF5Array
 	url = https://git.bioconductor.org/packages/HDF5Array
+	branch = RELEASE_3_21
+[submodule "IHW"]
+	path = IHW
+	url = https://git.bioconductor.org/packages/IHW
 	branch = RELEASE_3_21
 [submodule "IRanges"]
 	path = IRanges
@@ -238,6 +246,14 @@
 	path = XVector
 	url = https://git.bioconductor.org/packages/XVector
 	branch = RELEASE_3_21
+[submodule "affy"]
+	path = affy
+	url = https://git.bioconductor.org/packages/affy
+	branch = RELEASE_3_21
+[submodule "affyio"]
+	path = affyio
+	url = https://git.bioconductor.org/packages/affyio
+	branch = RELEASE_3_21
 [submodule "alevinQC"]
 	path = alevinQC
 	url = https://git.bioconductor.org/packages/alevinQC
@@ -298,6 +314,10 @@
 	path = limma
 	url = https://git.bioconductor.org/packages/limma
 	branch = RELEASE_3_21
+[submodule "lpsymphony"]
+	path = lpsymphony
+	url = https://git.bioconductor.org/packages/lpsymphony
+	branch = RELEASE_3_21
 [submodule "monaLisa"]
 	path = monaLisa
 	url = https://git.bioconductor.org/packages/monaLisa
@@ -325,6 +345,10 @@
 [submodule "plyxp"]
 	path = plyxp
 	url = https://git.bioconductor.org/packages/plyxp
+	branch = RELEASE_3_21
+[submodule "preprocessCore"]
+	path = preprocessCore
+	url = https://git.bioconductor.org/packages/preprocessCore
 	branch = RELEASE_3_21
 [submodule "pwalign"]
 	path = pwalign
@@ -369,4 +393,8 @@
 [submodule "tximport"]
 	path = tximport
 	url = https://git.bioconductor.org/packages/tximport
+	branch = RELEASE_3_21
+[submodule "vsn"]
+	path = vsn
+	url = https://git.bioconductor.org/packages/vsn
 	branch = RELEASE_3_21
