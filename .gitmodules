@@ -110,6 +110,10 @@
 	path = GenomeInfoDb
 	url = https://git.bioconductor.org/packages/GenomeInfoDb
 	branch = RELEASE_3_21
+[submodule "GenomeInfoDbData"]
+	path = GenomeInfoDbData
+	url = https://git.bioconductor.org/packages/GenomeInfoDbData
+	branch = RELEASE_3_21
 [submodule "GenomicAlignments"]
 	path = GenomicAlignments
 	url = https://git.bioconductor.org/packages/GenomicAlignments
@@ -261,6 +265,10 @@
 [submodule "basilisk"]
 	path = basilisk
 	url = https://git.bioconductor.org/packages/basilisk
+	branch = RELEASE_3_21
+[submodule "basilisk.utils"]
+	path = basilisk.utils
+	url = https://git.bioconductor.org/packages/basilisk.utils
 	branch = RELEASE_3_21
 [submodule "biocViews"]
 	path = biocViews
