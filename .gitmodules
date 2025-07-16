@@ -2,10 +2,6 @@
 	path = .registry
 	url = https://github.com/bioconductor-source/bioconductor-source.r-universe.dev
 	branch = HEAD
-[submodule "ALL"]
-	path = ALL
-	url = https://git.bioconductor.org/packages/ALL
-	branch = RELEASE_3_21
 [submodule "AnnotationDbi"]
 	path = AnnotationDbi
 	url = https://git.bioconductor.org/packages/AnnotationDbi
@@ -78,6 +74,10 @@
 	path = DelayedArray
 	url = https://git.bioconductor.org/packages/DelayedArray
 	branch = RELEASE_3_21
+[submodule "DelayedMatrixStats"]
+	path = DelayedMatrixStats
+	url = https://git.bioconductor.org/packages/DelayedMatrixStats
+	branch = RELEASE_3_21
 [submodule "DirichletMultinomial"]
 	path = DirichletMultinomial
 	url = https://git.bioconductor.org/packages/DirichletMultinomial
@@ -110,10 +110,6 @@
 	path = GenomeInfoDb
 	url = https://git.bioconductor.org/packages/GenomeInfoDb
 	branch = RELEASE_3_21
-[submodule "GenomeInfoDbData"]
-	path = GenomeInfoDbData
-	url = https://git.bioconductor.org/packages/GenomeInfoDbData
-	branch = RELEASE_3_21
 [submodule "GenomicAlignments"]
 	path = GenomicAlignments
 	url = https://git.bioconductor.org/packages/GenomicAlignments
@@ -134,9 +130,9 @@
 	path = GenomicRanges
 	url = https://git.bioconductor.org/packages/GenomicRanges
 	branch = RELEASE_3_21
-[submodule "GenomicSupersignatures"]
-	path = GenomicSupersignatures
-	url = https://git.bioconductor.org/packages/GenomicSupersignatures
+[submodule "GenomicSuperSignature"]
+	path = GenomicSuperSignature
+	url = https://git.bioconductor.org/packages/GenomicSuperSignature
 	branch = RELEASE_3_21
 [submodule "HDF5Array"]
 	path = HDF5Array
@@ -157,10 +153,6 @@
 [submodule "MatrixGenerics"]
 	path = MatrixGenerics
 	url = https://git.bioconductor.org/packages/MatrixGenerics
-	branch = RELEASE_3_21
-[submodule "Methylumi"]
-	path = Methylumi
-	url = https://git.bioconductor.org/packages/Methylumi
 	branch = RELEASE_3_21
 [submodule "MultiAssayExperiment"]
 	path = MultiAssayExperiment
@@ -214,6 +206,10 @@
 	path = SRAdb
 	url = https://git.bioconductor.org/packages/SRAdb
 	branch = RELEASE_3_21
+[submodule "Seqinfo"]
+	path = Seqinfo
+	url = https://git.bioconductor.org/packages/Seqinfo
+	branch = RELEASE_3_21
 [submodule "ShortRead"]
 	path = ShortRead
 	url = https://git.bioconductor.org/packages/ShortRead
@@ -262,6 +258,10 @@
 	path = alevinQC
 	url = https://git.bioconductor.org/packages/alevinQC
 	branch = RELEASE_3_21
+[submodule "annotate"]
+	path = annotate
+	url = https://git.bioconductor.org/packages/annotate
+	branch = RELEASE_3_21
 [submodule "basilisk"]
 	path = basilisk
 	url = https://git.bioconductor.org/packages/basilisk
@@ -277,6 +277,10 @@
 [submodule "biomaRt"]
 	path = biomaRt
 	url = https://git.bioconductor.org/packages/biomaRt
+	branch = RELEASE_3_21
+[submodule "bumphunter"]
+	path = bumphunter
+	url = https://git.bioconductor.org/packages/bumphunter
 	branch = RELEASE_3_21
 [submodule "cytolib"]
 	path = cytolib
@@ -302,6 +306,10 @@
 	path = flowCore
 	url = https://git.bioconductor.org/packages/flowCore
 	branch = RELEASE_3_21
+[submodule "genefilter"]
+	path = genefilter
+	url = https://git.bioconductor.org/packages/genefilter
+	branch = RELEASE_3_21
 [submodule "ggtree"]
 	path = ggtree
 	url = https://git.bioconductor.org/packages/ggtree
@@ -318,6 +326,10 @@
 	path = iSEE
 	url = https://git.bioconductor.org/packages/iSEE
 	branch = RELEASE_3_21
+[submodule "illuminaio"]
+	path = illuminaio
+	url = https://git.bioconductor.org/packages/illuminaio
+	branch = RELEASE_3_21
 [submodule "limma"]
 	path = limma
 	url = https://git.bioconductor.org/packages/limma
@@ -326,9 +338,21 @@
 	path = lpsymphony
 	url = https://git.bioconductor.org/packages/lpsymphony
 	branch = RELEASE_3_21
+[submodule "methylumi"]
+	path = methylumi
+	url = https://git.bioconductor.org/packages/methylumi
+	branch = RELEASE_3_21
+[submodule "minfi"]
+	path = minfi
+	url = https://git.bioconductor.org/packages/minfi
+	branch = RELEASE_3_21
 [submodule "monaLisa"]
 	path = monaLisa
 	url = https://git.bioconductor.org/packages/monaLisa
+	branch = RELEASE_3_21
+[submodule "multtest"]
+	path = multtest
+	url = https://git.bioconductor.org/packages/multtest
 	branch = RELEASE_3_21
 [submodule "ontoProc"]
 	path = ontoProc
@@ -337,10 +361,6 @@
 [submodule "orthos"]
 	path = orthos
 	url = https://git.bioconductor.org/packages/orthos
-	branch = RELEASE_3_21
-[submodule "orthosData"]
-	path = orthosData
-	url = https://git.bioconductor.org/packages/orthosData
 	branch = RELEASE_3_21
 [submodule "parody"]
 	path = parody
@@ -378,9 +398,17 @@
 	path = seqLogo
 	url = https://git.bioconductor.org/packages/seqLogo
 	branch = RELEASE_3_21
+[submodule "siggenes"]
+	path = siggenes
+	url = https://git.bioconductor.org/packages/siggenes
+	branch = RELEASE_3_21
 [submodule "sketchR"]
 	path = sketchR
 	url = https://git.bioconductor.org/packages/sketchR
+	branch = RELEASE_3_21
+[submodule "sparseMatrixStats"]
+	path = sparseMatrixStats
+	url = https://git.bioconductor.org/packages/sparseMatrixStats
 	branch = RELEASE_3_21
 [submodule "treeclimbR"]
 	path = treeclimbR
