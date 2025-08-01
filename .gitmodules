@@ -134,6 +134,10 @@
 	path = GenomicSuperSignature
 	url = https://git.bioconductor.org/packages/GenomicSuperSignature
 	branch = RELEASE_3_21
+[submodule "Gviz"]
+	path = Gviz
+	url = https://git.bioconductor.org/packages/Gviz
+	branch = RELEASE_3_21
 [submodule "HDF5Array"]
 	path = HDF5Array
 	url = https://git.bioconductor.org/packages/HDF5Array
@@ -277,6 +281,10 @@
 [submodule "biomaRt"]
 	path = biomaRt
 	url = https://git.bioconductor.org/packages/biomaRt
+	branch = RELEASE_3_21
+[submodule "biovizBase"]
+	path = biovizBase
+	url = https://git.bioconductor.org/packages/biovizBase
 	branch = RELEASE_3_21
 [submodule "bumphunter"]
 	path = bumphunter
